@@ -115,7 +115,7 @@ header nav ul li a{
 }
 .button1 {
     position: absolute;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 50%;
     background-color:rgb(255, 100, 100);
     border: 0px;
@@ -127,7 +127,7 @@ header nav ul li a{
 }
 .button2 {
     position: absolute;
-    margin-top: 73.2%;
+    margin-top: 74.2%;
     margin-left: -70%;
     background-color:rgb(255, 100, 100);
     border: 0px;
@@ -138,7 +138,7 @@ header nav ul li a{
     transition:all 0.3s ease 0s ;
 }
 .button {
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 24.5%;
     background-color:rgb(255, 100, 100);
     border: 0px;
@@ -177,12 +177,12 @@ header nav ul li a{
 .London{
     position: absolute;
     margin-top: 44.3%;
-    margin-left: 35.8%;
+    margin-left: 34%;
 }
 .Stambul{
     position: absolute;
     margin-top: 44.3%;
-    margin-left: 65%;
+    margin-left: 65.6%;
 }
 .hr1{
     position:absolute;
@@ -230,4 +230,41 @@ header nav ul li a{
     *{
         margin-top: 0px;
     }
+}
+@media screen and (max-width: 800px){
+.button1 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+    background-color:rgb(255, 100, 100);
+    border: 0px;
+    max-width: 100%;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5%;
+    transition:all 0.3s ease 0s ;
+}
+.button2 {
+    position: absolute;
+    margin-top: 78.2%;
+    margin-left: -70%;
+    background-color:rgb(255, 100, 100);
+    border: 0px;
+    max-width: 100%;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5%;
+    transition:all 0.3s ease 0s ;
+}
+.button {
+    margin-top: 10%;
+    margin-left: 24.5%;
+    background-color:rgb(255, 100, 100);
+    border: 0px;
+    max-width: 100%;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5%;
+    transition:all 0.3s ease 0s ;
+}
 }
